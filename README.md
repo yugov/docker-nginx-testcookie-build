@@ -24,3 +24,11 @@ Usage with direct internet access:
 make run
 ```
 Deb packages will appear in the ./target directory.
+
+## Usage with Docker hub
+
+```
+docker run -v $(pwd)/target:/target yugov/docker-nginx-testcookie-build
+```
+Deb packages will appear in the ./target directory.
+
